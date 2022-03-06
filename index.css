@@ -21,7 +21,6 @@ body {
     background-color:black;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    min-height: 100%
 }
 
 nav {
@@ -88,8 +87,4 @@ nav {
 
 .all {
     text-align: center;
-}
-
-h5 {
-    margin: 10px 0;
 }

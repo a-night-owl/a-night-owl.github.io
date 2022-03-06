@@ -22,7 +22,6 @@ body {
     background-color:black;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    min-height: 100%
 }
 
 nav {
@@ -53,7 +52,7 @@ li {
 }
 
 .skills {
-    padding: 30px 50px 80px 50px;
+    padding: 30px 50px 30px 50px;
     font-size: 19px;
     column-count: 2;
 }
@@ -69,8 +68,4 @@ li {
 p {
     padding: 1px;
     margin: 6px
-}
-
-h5 {
-    margin: 10px 0;
 }
