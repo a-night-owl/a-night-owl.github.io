@@ -1,90 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration-style: none;
-    text-decoration: none;
-    color: white
+  text-decoration-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    color: #7A7979
+  color: #7a7979;
 }
 
 body {
-    background-color:black;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 nav {
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: 1px solid white;
-    list-style-type: none;
-    display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  list-style-type: none;
+  display: inline-block;
 }
 
 .navpages {
-    list-style-type: none;
-    display: inline;
-    float:right;
-    padding: 10px 20px 10px 20px;
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 10px 20px 10px 20px;
 }
 
 .logo {
-    float: left;
-    font-weight: 800;
-    font-size: 21px
+  float: left;
+  font-weight: 800;
+  font-size: 21px;
 }
 
-
 .container {
-    position: relative;
-    width: 19.73%;
-    display: inline-grid;
+  position: relative;
+  width: 19.73%;
+  display: inline-grid;
 }
 
 .image {
-    width: 100%;
+  width: 100%;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
 .container:hover .overlay {
-    opacity: 0.97;
+  opacity: 0.97;
 }
 
 .text {
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .all {
-    text-align: center;
+  text-align: center;
+}
+
+h5 {
+  margin: 10px 0;
+  font-size: 13px;
 }
